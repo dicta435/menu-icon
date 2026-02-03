@@ -1,0 +1,42 @@
+header img{
+    height: 100px;
+}
+header{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(247, 141, 13);
+    padding: 5px 15px;
+    font-size: 16px;
+    & hover
+    {
+        color: black;
+    }
+}
+nav a:hover{
+    color:black;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+}
+nav a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 50px ;
+    text-decoration: none;
+    color: rgb(75, 154, 228);
+    border-radius: 0px 10px 10px 10px;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 3px 3px 3px;
+    transition: 1.0s;
+}
+nav{
+    padding: 15px;
+}
